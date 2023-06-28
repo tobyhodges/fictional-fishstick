@@ -20,7 +20,8 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: ## Instructor Feedback
+      value: |
+        ## Instructor Feedback
   - type: textarea
     id: instructor-up
     attributes:
@@ -66,7 +67,8 @@ body:
         - label: This version is worse than the current version.
   - type: markdown
     attributes:
-      value: ## Learner Feedback
+      value: |
+        ## Learner Feedback
   - type: textarea
     id: learner-feedback
     attributes:
@@ -75,7 +77,8 @@ body:
         Feel free to exclude any feedback that is specific to the Instructors, venue, etc, or about other lessons taught at the workshop.
   - type: markdown
     attributes:
-      value: ## Conclusion
+      value: |
+        ## Conclusion
   - type: textarea
     id: other
     attributes:
