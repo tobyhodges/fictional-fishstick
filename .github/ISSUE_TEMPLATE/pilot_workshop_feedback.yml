@@ -45,8 +45,8 @@ body:
     attributes:
       label: 5. Were the Instructors able to teach the whole lesson in the time available?
       options:
-        - label: Yes
-        - label: No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: input
@@ -62,9 +62,9 @@ body:
     attributes:
       label: 7. If the Instructors have also taught the official version of the _Data Analysis and Visualization with R for Ecologists_ lesson, How do they think this redesigned version compares to it?
       options:
-        - label: This version is no better or worse than the current official version.
-        - label: This version is an improvement on the current version.
-        - label: This version is worse than the current version.
+        - "This version is no better or worse than the current official version."
+        - "This version is an improvement on the current version."
+        - "This version is worse than the current version."
   - type: markdown
     attributes:
       value: |
